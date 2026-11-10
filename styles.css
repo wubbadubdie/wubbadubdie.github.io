@@ -1,3 +1,12 @@
+.wrapper {
+  max-width: 1200px;  /* Caps the width on large screens */
+  width: 100%;        /* Allows responsiveness on small screens */
+  margin: 0 auto;     /* Centers the wrapper horizontally */
+  padding: 0 20px;    /* Prevents text from touching screen edges */
+  box-sizing: border-box; /* Includes padding in the total width calculation */
+}
+
+
 header
 {
     text-align: center;
