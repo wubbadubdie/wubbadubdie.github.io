@@ -1,28 +1,32 @@
-header
-{
+body {
+    background-color: black;
+}
+
+header {
     text-align: center;
     padding: 20px;
-    background-color: aliceblue;
     font-family: 'Tiny5 Duo';
     color: red;
 }
 
-main
-{
+main {
     text-align: center  ;
     font-family: '';
 }
 
-nav
-{
+nav {
     text-align: center;
-    padding: 2-px;
-    border: 10px solid #90c7f8;
-    background-color: #90c7f8;
 }
 
-footer
-{
+footer {
     text-align: center;
     padding: 20px;
+}
+
+.beigefont {
+    color: beige;
+}
+
+.wrapper{
+    
 }
