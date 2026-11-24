@@ -62,5 +62,9 @@ footer {
 }
 
 .footer{
-    padding-top: 200px;
+
+    margin-top: 300px;
+    font-family: "Share Tech Mono", monospace;
+    background-color: rgba(245, 245, 220, 0.2);
+    h
 }
