@@ -1,12 +1,20 @@
 body {
-    background-color: black;
+    background-image: url("Backdrop/starfield.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
     text-align: center;
+    background-color: rgba(245, 245, 220, 0.2);
+    width: 500px;
     padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
     font-family: 'Tiny5 Duo';
-    color: red;
+    color: #ff0000;
 }
 
 main {
@@ -24,9 +32,36 @@ footer {
 }
 
 .beigefont {
-    color: beige;
+    color: #f5f5dc;
+}
+
+.whitefont {
+    color: #ffffff;
 }
 
 .wrapper{
     
+}
+
+.share-tech-mono-regular {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tiny5-duo-mono {
+  font-family: "Tiny5 Duo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "BLED" 0,
+    "JITT" 0,
+    "ROND" 0;
+}
+
+.footer{
+    padding-top: 200px;
 }
