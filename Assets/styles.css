@@ -62,9 +62,31 @@ footer {
 }
 
 .footer{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    transform: translateX(-50%);
 
-    margin-top: 300px;
+    width: 500px;
+    margin: auto;
     font-family: "Share Tech Mono", monospace;
     background-color: rgba(245, 245, 220, 0.2);
-    h
+    
+}
+
+.credits{
+    margin-bottom: 100px;
+}
+
+.logo{
+    position: fixed;
+    left: 0%;
+    bottom: 3%;
+}
+
+.funnylamb{
+    position: fixed;
+    left: 85%;
+    bottom: 3%;
 }
